@@ -1,7 +1,14 @@
 ﻿namespace GameOfLife.Models
 {
-    internal struct Cell
+    using GameOfLife.Contracts;
+
+    internal struct Cell : IState
     {
-        public bool IsAlive { get; set; }
+        public Cell(bool isAlive)
+        {
+            this.IsAlive = isAlive;
+        }
+
+        public bool IsAlive { get; set; }  
     }
 }

@@ -1,8 +1,9 @@
 ﻿namespace GameOfLife.Models
 {
     using System;
-    using GameOfLife.Contracts;
+
     using Common;
+    using GameOfLife.Contracts;
 
     internal class Matrix<T> : IMatrix<T>
     {

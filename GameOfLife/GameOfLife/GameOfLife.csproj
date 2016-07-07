@@ -45,8 +45,11 @@
   <ItemGroup>
     <Compile Include="Common\DataValidator.cs" />
     <Compile Include="Contracts\IMatrix.cs" />
+    <Compile Include="Contracts\IRenderer.cs" />
+    <Compile Include="Contracts\IState.cs" />
     <Compile Include="Models\Cell.cs" />
     <Compile Include="Models\Matrix.cs" />
+    <Compile Include="Renderers\ConsoleRender.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
